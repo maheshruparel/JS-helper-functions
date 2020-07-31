@@ -1,4 +1,4 @@
-const isJsonString = string => {
+function isJsonString (string) {
   try {
     JSON.parse(string);
     return true;
