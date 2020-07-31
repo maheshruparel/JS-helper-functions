@@ -7,3 +7,5 @@ const isJsonString = string => {
     return false;
   }
 }
+
+export default isJsonString
