@@ -1,4 +1,4 @@
-removeIncluded = async (mainArray, arrayToRemove) => {
+function removeIncluded (mainArray, arrayToRemove) {
   if (mainArray.length && arrayToRemove.length) {
     mainArray.forEach((element) => {
       if (arrayToRemove.includes(element)) {
@@ -8,3 +8,5 @@ removeIncluded = async (mainArray, arrayToRemove) => {
   }
   return mainArray;
 };
+
+export default removeIncluded
