@@ -1,4 +1,4 @@
-const objectSize = obj => {
+function objectSize (obj) {
   return Object.keys(obj).length;
 }
 
