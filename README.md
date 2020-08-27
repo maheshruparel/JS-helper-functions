@@ -1,1 +1,1 @@
-# JS-Snippets
+# JS Helper Functions
