@@ -6,3 +6,4 @@ const hasKey = (obj, keys) => {
   }
 };
 
+export default hasKey
