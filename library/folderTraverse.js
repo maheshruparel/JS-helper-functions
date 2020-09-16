@@ -14,4 +14,4 @@ const folderTraverse = function (filePath, handler) {
   });
 };
 
-export default folderTraverse;
+export default folderTraverse
