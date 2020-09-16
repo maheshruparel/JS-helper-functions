@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const traverse = function (filePath, handler) {
+const folderTraverse = function (filePath, handler) {
   fs.readdirSync(filePath).forEach(function (file) {
     let file = path.join(filePath, file);
     if (fs.statSync(file).isDirectory()) {
@@ -14,4 +14,4 @@ const traverse = function (filePath, handler) {
   });
 };
 
-export default traverse;
+export default folderTraverse;
