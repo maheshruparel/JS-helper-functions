@@ -1,0 +1,20 @@
+const fullMonthNameToNum = (monthName) => {
+  const months = [
+    '',
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ];
+
+  const month = months.indexOf(monthName);
+  return month > 0 ? month : 0;
+}
